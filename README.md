@@ -22,6 +22,13 @@ node docs2/examples/zkapps/06-offchain-storage/experimental-zkapp-offchain-stora
 node build/src/main.js
 ```
 
+# If it fails for some reason run these commands again:
+
+```sh
+npm link experimental-zkapp-offchain-storage
+npm run build && node build/src/main.js
+```
+
 ___
 
 
