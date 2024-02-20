@@ -9,24 +9,17 @@ npm run setup
 ## Run the servers in seperate terminals
 
 ```sh
-node docs2/examples/zkapps/06-offchain-storage/experimental-zkapp-offchain-storage/build/src/server/storageServer.js
+node experimental-zkapp-offchain-storage/build/src/server/storageServer.js
 ```
 
 ```sh
-node docs2/examples/zkapps/06-offchain-storage/experimental-zkapp-offchain-storage/build/src/server/storageServer2.js
+node experimental-zkapp-offchain-storage/build/src/server/storageServer2.js
 ```
 
 ## Run the main script
 
 ```sh
 node build/src/main.js
-```
-
-# If it fails for some reason run these commands again:
-
-```sh
-npm link experimental-zkapp-offchain-storage
-npm run build && node build/src/main.js
 ```
 
 ___
